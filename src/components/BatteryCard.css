@@ -1,0 +1,24 @@
+/* src/components/BatteryCard.css */
+.battery-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px; /* Reduced padding */
+  margin: 10px; /* Adjust margin */
+  width: 200px; /* Adjust width if needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.battery-card h3 {
+  margin: 5px 0; /* Adjust margin */
+  font-size: 1.2em; /* Adjust font size if needed */
+}
+
+.battery-card p {
+  margin: 5px 0; /* Adjust margin */
+  font-size: 1em; /* Adjust font size if needed */
+}

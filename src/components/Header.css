@@ -1,0 +1,33 @@
+/* src/components/Header.css */
+.App-header {
+    background-color: #282c34;
+    padding: 10px; /* Reduced padding */
+    color: white;
+    text-align: center;
+  }
+  
+  .App-header h1 {
+    margin: 0;
+    font-size: 2em; /* Adjust font size if needed */
+  }
+  
+  .App-header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px 0 0 0; /* Adjust margin to control space below nav */
+  }
+  
+  .App-header nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .App-header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .App-header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
